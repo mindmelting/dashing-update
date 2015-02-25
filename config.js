@@ -1,10 +1,9 @@
 var config = {
     dashboardUrl: 'http://localhost:3030',
-    widgetId: 'test_bpm',
-    authCode: 'springcobdash',
+    authCode: 'AUTH_CODE',
     widgets: [
         {
-            widgetId: 'test_bpm',
+            widgetId: 'test_widget',
             fields: ['passed', 'failed', 'total']
         }
     ]
