@@ -1,0 +1,29 @@
+{
+  "name": "dashing-update",
+  "version": "1.0.0",
+  "description": "Utility to update dashing widgets with configuration",
+  "main": "dashing-update.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mindmelting/dashing-update"
+  },
+  "keywords": [
+    "dashing"
+  ],
+  "author": "Lawrence Hunt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mindmelting/dashing-update/issues"
+  },
+  "homepage": "https://github.com/mindmelting/dashing-update",
+  "dependencies": {
+    "bluebird": "^2.9.12",
+    "colors": "^1.0.3",
+    "lodash": "^3.3.1",
+    "readline": "0.0.7",
+    "request": "^2.53.0"
+  }
+}
